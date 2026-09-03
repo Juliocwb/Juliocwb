@@ -1,8 +1,8 @@
 <h1 align="center">Olá 👋, eu sou o Julio Carvalho</h1>
 
 <p align="center">
-  <b>Desenvolvedor Python/Django que constrói CRM e automação para times comerciais</b><br/>
-  SDR por função, programador por formação — uno as duas coisas para criar sistemas que a operação usa todos os dias.
+  <b>Desenvolvedor Python/Django · Agentes de IA · Automação de processos</b><br/>
+  Construo plataformas SaaS e agentes de IA que tiram trabalho manual da operação de empresas.
 </p>
 
 <p align="center">
@@ -42,18 +42,18 @@
     <td width="50%" valign="top">
       <h3>O que eu faço</h3>
       <ul>
-        <li>Construo e mantenho a <b>plataforma operacional</b> de uma consultoria tributária: CRM comercial, agenda de reuniões, operação, financeiro e treinamento de vendas com IA.</li>
-        <li>Atuo como <b>SDR</b>: prospecção, qualificação de leads inbound, agendamento para executivos e recuperação de no-shows — e transformo cada gargalo desse processo em software.</li>
-        <li>Uso <b>IA como parceira de desenvolvimento</b> (Claude Code) com fluxo disciplinado: etapas pequenas, testes primeiro, deploy verificado.</li>
+        <li>Desenvolvo <b>plataformas SaaS em Django</b> para gestão comercial, operacional e financeira: CRM com funil, agenda, contratos, ciclos com máquina de estados, faturamento e comissões.</li>
+        <li>Crio <b>agentes de IA</b> que executam processos de ponta a ponta: atendimento no WhatsApp, análise de reuniões gravadas, geração de diagnósticos e documentos, treinamento de vendas por roleplay com voz.</li>
+        <li><b>Automatizo processos</b> que antes eram manuais: distribuição de leads, integrações com Google Calendar, Sheets e Facebook Lead Ads, rotinas noturnas de classificação e vínculo de dados.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
       <h3>Como eu trabalho</h3>
       <ul>
+        <li>Desenvolvimento assistido por IA (<b>Claude Code</b>) com método: especificação, etapas pequenas, testes primeiro, deploy verificado.</li>
         <li>Nada sobe sem teste cobrindo o comportamento principal — suíte com <b>pytest</b> rodando em CI.</li>
-        <li>Segurança tratada como entrega: 2FA, bloqueio de tentativas de login, CSP, webhooks assinados, auditoria de acessos.</li>
-        <li>Documentação viva no <b>Obsidian</b>: decisões, diário de bordo e procedimentos operacionais de cada projeto.</li>
-        <li>Base em <b>Curitiba — PR</b>, fuso de Brasília (UTC-3).</li>
+        <li>Segurança como parte da entrega: 2FA, bloqueio de tentativas de login, CSP, webhooks assinados, auditoria de acessos.</li>
+        <li>Documentação viva no <b>Obsidian</b>: decisões, diário de bordo e procedimentos de cada projeto. Base em <b>Curitiba — PR</b>.</li>
       </ul>
     </td>
   </tr>
@@ -63,7 +63,7 @@
 
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=python,django,postgres,redis,sqlite,docker,nginx,linux,bash,html,css,js,bootstrap,ruby,git,github,githubactions,vscode,obsidian,cloudflare&perline=10"
+    src="https://skillicons.dev/icons?i=python,django,nodejs,postgres,redis,sqlite,docker,nginx,linux,bash,html,css,js,bootstrap,ruby,git,github,githubactions,vscode,obsidian,cloudflare&perline=11"
     alt="Stack"
   />
 </p>
@@ -71,15 +71,15 @@
 <table align="center" width="100%">
   <tr>
     <td width="25%" align="center"><b>Backend</b></td>
+    <td width="25%" align="center"><b>Agentes e IA</b></td>
     <td width="25%" align="center"><b>Dados e infraestrutura</b></td>
-    <td width="25%" align="center"><b>Interface</b></td>
-    <td width="25%" align="center"><b>Qualidade e IA</b></td>
+    <td width="25%" align="center"><b>Interface e qualidade</b></td>
   </tr>
   <tr>
-    <td align="center">Python 3.11 · Django 5/6 · Gunicorn · WhiteNoise · APIs REST autenticadas por chave</td>
-    <td align="center">PostgreSQL · Redis · Docker Compose · Nginx · Let's Encrypt · VPS Linux · Cloudflare</td>
-    <td align="center">HTML · CSS · JavaScript · Bootstrap 5 · Chart.js · design system próprio com tokens de marca</td>
-    <td align="center">pytest · model-bakery · GitHub Actions · Playwright · Sentry · Anthropic Claude API · OpenAI API</td>
+    <td align="center">Python 3.11 · Django 5/6 · Node.js · Gunicorn · WhiteNoise · APIs REST autenticadas por chave</td>
+    <td align="center">Anthropic Claude API · Claude Code · OpenAI (voz e transcrição) · MCP · Evolution API (WhatsApp) · agentes com skills e bridge próprios</td>
+    <td align="center">PostgreSQL · Redis · Docker Compose · Nginx · Let's Encrypt · VPS Linux · Cloudflare · cron</td>
+    <td align="center">HTML · CSS · JavaScript · Bootstrap 5 · Chart.js · pytest · model-bakery · GitHub Actions · Playwright · Sentry</td>
   </tr>
 </table>
 
@@ -88,26 +88,26 @@
 <table align="center" width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>SistemaLA — plataforma operacional</h3>
-      <p>Sistema completo de uma consultoria tributária: CRM com funil por etapas, agenda comercial, contratos com onboarding e gates de aprovação, ciclos com máquina de estados e ledger de eventos, financeiro com comissões em dupla aprovação, sala de roleplay de vendas com IA e voz ao vivo, painéis de gestão e API para agentes.</p>
+      <h3>SistemaLA — SaaS de gestão comercial e tributária</h3>
+      <p>Plataforma completa em desenvolvimento: CRM com funil por etapas e mesa de trabalho, agenda comercial, contratos com onboarding e gates de aprovação, ciclos com máquina de estados e ledger de eventos, financeiro com comissões em dupla aprovação, sala de roleplay de vendas com IA e voz ao vivo, painéis de gestão, API para agentes e permissões por módulo configuráveis sem deploy.</p>
       <p><i>Django 5.2 · PostgreSQL 16 · Redis · Docker · pytest + GitHub Actions · Claude e OpenAI</i></p>
     </td>
     <td width="50%" valign="top">
-      <h3>CRM comercial (AgendaICMS)</h3>
-      <p>CRM que operou em produção por mais de um ano e foi vendido em 2026. Kanban de leads, integração com Google Calendar e Google Sheets, webhook de Facebook Lead Ads, distribuição proporcional de leads entre SDRs, central de no-show, RBAC por módulos, 2FA, CSP e mais de 2.600 testes automatizados.</p>
-      <p><i>Django · PostgreSQL · Docker · Nginx · VPS</i></p>
+      <h3>Agentes de IA para operação</h3>
+      <p>Agente em servidor próprio (Node.js) com biblioteca de skills e bridge: gera diagnósticos e documentos a partir de dados fiscais, responde no WhatsApp via Evolution API e alimenta o CRM. Pipeline noturno que classifica reuniões gravadas, vincula cada transcrição ao card certo e notifica o responsável.</p>
+      <p><i>Node.js · Python · Claude API · OpenAI · Evolution API · cron</i></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>CRM Orkestra</h3>
-      <p>CRM construído do zero sobre o conhecimento do projeto anterior — contas, leads, tarefas e deploy próprio, com Sentry, testes e pipeline de entrega verificada.</p>
-      <p><i>Django 6 · psycopg 3 · Gunicorn · Docker</i></p>
+      <h3>AgendaICMS — CRM SaaS (vendido em 2026)</h3>
+      <p>CRM que operou em produção por mais de um ano até ser vendido. Kanban de leads, Google Calendar e Google Sheets, webhook de Facebook Lead Ads, distribuição proporcional de leads, central de no-show, RBAC por módulos, 2FA, CSP e mais de 2.600 testes automatizados.</p>
+      <p><i>Django · PostgreSQL · Docker · Nginx · VPS</i></p>
     </td>
     <td width="50%" valign="top">
-      <h3>Automações comerciais</h3>
-      <p>Integração com WhatsApp via Evolution API, análise automática de reuniões gravadas com vínculo ao card do CRM, roteiros de conversão de no-show e assistentes de IA para o time comercial.</p>
-      <p><i>Python · APIs de IA · Evolution API · cron</i></p>
+      <h3>CRM Orkestra</h3>
+      <p>CRM construído do zero sobre o conhecimento acumulado: contas, leads, tarefas, deploy próprio, Sentry, testes e pipeline de entrega verificada.</p>
+      <p><i>Django 6 · psycopg 3 · Gunicorn · Docker</i></p>
     </td>
   </tr>
 </table>
@@ -121,7 +121,7 @@
   </tr>
   <tr>
     <td align="center">2025 — atual</td>
-    <td><b>SDR e desenvolvedor interno</b> em consultoria tributária — prospecção e agendamento para executivos; criação e manutenção do CRM e da plataforma operacional da empresa.</td>
+    <td><b>Desenvolvedor de sistemas e agentes de IA</b> — criação de plataforma SaaS de gestão comercial e tributária, agentes de IA em produção e automação de processos comerciais e operacionais.</td>
   </tr>
   <tr>
     <td align="center">2023 — 2024</td>
@@ -147,7 +147,7 @@
       <h3>📌 Horários produtivos</h3>
       <img
         src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Juliocwb&theme=tokyonight&utcOffset=-3"
-        alt="Visão geral do GitHub"
+        alt="Horários produtivos"
         width="100%"
       />
     </td>
