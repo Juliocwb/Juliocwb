@@ -105,7 +105,7 @@
       <p><i>Django · PostgreSQL · Docker · Nginx · VPS</i></p>
     </td>
     <td width="50%" valign="top">
-      <h3>CRM Orkestra</h3>
+      <h3>CRM </h3>
       <p>CRM construído do zero sobre o conhecimento acumulado: contas, leads, tarefas, deploy próprio, Sentry, testes e pipeline de entrega verificada.</p>
       <p><i>Django 6 · psycopg 3 · Gunicorn · Docker</i></p>
     </td>
